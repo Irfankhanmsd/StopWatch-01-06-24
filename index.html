@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="myh1">Stopwatch</h1>
+
+    <div id="container">
+        <div>
+            <h1 id="hurHeading">00</h1>
+            <p>Hur</p>
+        </div>
+
+        <div>
+            <h1 id="minHeading">00</h1>
+            <p>min</p>
+        </div>
+
+        <div>
+            <h1 id="secHeading">00</h1>
+            <p>sec</p>
+        </div>
+
+        <div>
+            <h1 id="msecHeading">00</h1>
+            <p>msec</p>
+        </div>
+        
+    </div>
+
+    <div id="control">
+        <button onclick="startWatch()" id="startButton">START</button>
+        <button onclick="stopWatch()" id="stopButton">STOP</button>
+        <button onclick="resetWatch()" id="restButton">RESET</button>
+    </div>
+    
+</body>
+
+<script src="stopwatch.js"></script>
+
+</html>
